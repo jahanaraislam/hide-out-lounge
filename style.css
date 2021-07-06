@@ -4,7 +4,38 @@ body{
     padding:0px;
     background-color: #f3ebeb;
 }
-
+#first-bg{
+    background-image:url(images/about23.jpg);
+    background-repeat: no-repeat;
+    min-height: 500px;
+    background-size: cover;
+}
+ nav{
+    float:right;
+    padding-right: 295px;
+}
+nav ul li{
+    list-style: none;
+    display:inline-block;
+    padding-right: 25px;
+    padding-top: 12px;
+    padding-bottom: 10px;
+   
+}
+nav  a{
+text-decoration: none;
+color:rgba(86, 139, 16, 0.6);
+font-weight: bold;
+font-size: 40px;
+padding-bottom: 10px;
+}
+#first-bg h1{
+    text-align: center;
+    padding-top:20%;
+    padding-left: 2%;
+    color:rgba(2, 3, 0, 0.6);
+    font-size: 50px;
+}
 .link-button{
     text-decoration: none;
     background-image: linear-gradient(orange,tomato);
@@ -20,22 +51,22 @@ body{
    
 }
 .half-width{
-width:50%;
+    width:50%;
 }
 
 .half-width h1{
-padding-top: 90px;
-padding-left:10%;
-font-size:65px;
-text-transform: capitalize;
-font-weight: 600;
-color:rgb(88, 85, 85);
+    padding-top: 90px;
+    padding-left:10%;
+    font-size:65px;
+    text-transform: capitalize;
+    font-weight: 600;
+    color:rgb(88, 85, 85);
 }
 .half-width p{
- padding-left:10%;
-color:#a59b9b;
-font-size:25px;
-margin-bottom:62px;
+    padding-left:10%;
+    color:#a59b9b;
+    font-size:25px;
+    margin-bottom:62px;
 
 }
  a{
@@ -44,7 +75,7 @@ margin-bottom:62px;
 
 
 .orange{
-color:orange;
+    color:orange;
 }
 .about-us{
     background-image:url(images/about-back.png) ;
@@ -68,4 +99,73 @@ h2{
 .about-img{ 
     width:50%;
     padding:40px 70px 0px 170px;
-}   
+}
+#recipie{
+    text-align: center;
+    margin-bottom:80px;
+    
+}
+.reci-flex{
+    display:flex;
+    
+  
+}
+#recipie p{
+    color:black;
+    font-size:20px;
+    padding:10px;
+    margin-bottom:40px;
+}
+
+.recip-item{
+    width:28.33%;
+    margin:auto;
+    
+    background-color: white;
+    border-radius: 25px;
+    box-shadow:10px 10px 30px rgb(223, 211, 211);
+    
+}
+.recip-item img{
+    width:80%;
+    padding: 37px;
+    border-radius:25px;
+
+}
+.follower{
+    display:flex;
+    background-color: white;
+    border-radius:20px;
+    margin-bottom:80px;
+    margin-bottom: 80px;
+    
+    
+}
+.follower-item{
+    width:28.33%;
+    margin: 0 auto;
+    padding-left:13%;
+    
+    color:#a59b9b;
+    font-size:20px;
+}
+.follower h1{
+    
+    font-size:60px;
+    text-transform: capitalize;
+    font-weight: bold;
+    color:black
+}
+
+    
+
+footer{
+    background-color:black;
+    color:#b7a9a9;
+    text-align: center;
+    min-height: 60px;
+    padding: 30px;
+    color:white;
+}
+
+    
