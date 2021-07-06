@@ -12,33 +12,60 @@ body{
     font-weight: 700;
     padding:25px 45px;
     border-radius: 35px;
+    
 }
 
 .flexible{
     display:flex;
-    margin:7%;
+   
 }
 .half-width{
 width:50%;
 }
-.about-img{
-width:40%;
-padding:0px 68px;
-}
+
 .half-width h1{
 padding-top: 90px;
+padding-left:10%;
 font-size:65px;
 text-transform: capitalize;
 font-weight: 600;
 color:rgb(88, 85, 85);
 }
 .half-width p{
+ padding-left:10%;
 color:#a59b9b;
 font-size:25px;
 margin-bottom:62px;
 
 }
+ a{
+    margin-left: 10%;
+}
+
 
 .orange{
 color:orange;
 }
+.about-us{
+    background-image:url(images/about-back.png) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+} 
+h2{
+    padding-top: 80px;
+    padding-left: 80px;
+    
+    font-size:40px;
+    text-transform: capitalize;
+    font-weight: bold;
+    color:rgb(95, 92, 92);
+}
+.half-width .about-para{
+    color:black;
+    font-size:23px;
+    margin-bottom:100px;
+ }
+.about-img{ 
+    width:50%;
+    padding:40px 70px 0px 170px;
+}   
