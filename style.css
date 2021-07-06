@@ -1,3 +1,44 @@
 body{
     font-family: 'Noto Serif', serif;
+    margin:0px;
+    padding:0px;
+    background-color: #f3ebeb;
+}
+
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(orange,tomato);
+    color: white;
+    font-weight: 700;
+    padding:25px 45px;
+    border-radius: 35px;
+}
+
+.flexible{
+    display:flex;
+    margin:7%;
+}
+.half-width{
+width:50%;
+}
+.about-img{
+width:40%;
+padding:0px 68px;
+}
+.half-width h1{
+padding-top: 90px;
+font-size:65px;
+text-transform: capitalize;
+font-weight: 600;
+color:rgb(88, 85, 85);
+}
+.half-width p{
+color:#a59b9b;
+font-size:25px;
+margin-bottom:62px;
+
+}
+
+.orange{
+color:orange;
 }
